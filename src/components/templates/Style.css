@@ -1,0 +1,83 @@
+.sidenav {
+  top :60px;
+    height: 100%;
+    width: 160px;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    background-color: #4a4e53;
+    overflow-x: hidden;
+    padding-top: 0px;
+  }
+  .sidenav h4{
+    text-shadow: 2px 2px 5px rgb(56, 54, 54);
+    padding: 10px 10px 0px 44px;
+    text-decoration: none;
+    font-size: 15px;
+    color: #0a0a0a;
+    display: block;
+    font-style:initial;
+
+  }
+  
+  .sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #fafaf8;
+    display: block;
+  }
+  
+  .sidenav a:hover {
+    color: #4a4e53;
+    background-color: #faf9f4;
+    
+  }
+
+  .navbar {
+    
+  margin: 0;
+  padding: 10px;
+  
+  background-color: #333;
+  position: fixed;
+  top: px;
+  width: 100%;
+    height: 60px;
+    
+    
+  }
+
+  .navbar a{
+    
+    font-size: 25px;
+    padding: 6px;
+    color: #f7f6f5;
+    font-weight: 800px;
+    
+  }
+
+  .main {
+    margin-left: 160px; /* Same as the width of the sidenav */
+    font-size: 28px; /* Increased text to enable scrolling */
+    
+  }
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+
+body {
+  
+  background-color: #e9e8e3;
+  font-family: "Trirong", serif;
+}
+
+button  .btn{
+  border: none;
+}
+.container{
+  padding-top: 60px;
+  
+}
